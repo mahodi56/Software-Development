@@ -16,8 +16,6 @@ void bubbleSort(int arr[], int n) {
         if (!swapped)  // If no swaps occurred, the array is already sorted
             break;
     }
-
-    // Additional Bubble Sort pass (Your logic)
     for (int i = n - 1; i > 1; i--) {
         for (int j = 0; j < i; j++) {
             if (arr[j] > arr[j + 1]) {
